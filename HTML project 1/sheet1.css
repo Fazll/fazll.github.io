@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+header{
+    margin-top: 20px;
+    padding:10px;
+    font-size:4vw;
+    color: grey;
+    text-align:center;
+    font-style:bold;
+    border-style:groove;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;    
+}
+#sline{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    text-transform: unset;
+    color:rgba(224, 31, 31, 0.61);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow:green;
+    
+}
+#h11{
+    text-indent: 100px;
+    color:red;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p#content1,div#content2{
+    color:darkred;
+    text-align: left;
+    text-indent:100px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    float:right;
+    width:800px;
+    height: auto;
+
+}
+body{
+    background: url("pc1.jpg") no-repeat center top scroll;
+}
+ol{
+    list-style-type: decimal;
+}

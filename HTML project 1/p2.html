@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Survey form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<meta name="author" content="Fazl">
+<meta name="keywords" content="html,css,survey forms">
+<link rel="stylesheet" href="shee2.css">
+</head>
+<body>
+<h1>Data-R</h1>
+<form method="POST" autocomplete="off"  >
+    <div id="io" >
+First Name:<br>
+<input type="text" autofocus name="First name" placeholder="Enter your first name" size="30" maxlength="15" required="required"><br>
+Last Name:<br>
+<input type="text" autofocus  name="Last name" placeholder="Enter your last name" size="30" maxlength="15"required="required"><br>
+Email-id:<br>
+<input type="email"name="email" placeholder="Enter your email Id" size="30" maxlength="15"required="required"><br>
+Age:<br>
+<input type="number" name="age" placeholder="Age" min="18" max="99" size="15" maxlength="2"required="required"><br>
+Are you a Professional or a student:<br>
+<select name="role"id="role">
+<option value="Professional or a student" selected="selected">Professional or a student</option>
+<option value="Student">Student</option>
+<option value="Professional">Professional</option></select><br/>
+Contact no:<br>
+<input type="tel" name="contact no" placeholder="Mobile/telephone" maxlength="13" size="15" required="required"><br>
+Upload your Photograph:<br>
+<input type="file" name="Photograph" formenctype="multipart/form-data" required="required"><br>
+D.O.B:<br>
+<input type="date" id="gb" name="DOB"><br>
+Your Address:<br>
+<input type="text" Placeholder="Address" name="address" maxlength="30" size="30"><br>
+<br>
+<input type="submit" id="su" name="submit" value="Submit">
+<input type="reset" id="re" name="re" value="Reset"><br></div>
+</form>
+
+</body>
+
+
+
+
+</html>
+

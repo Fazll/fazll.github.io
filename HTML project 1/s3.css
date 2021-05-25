@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#fq{
+float:center;
+text-align: center;
+padding-top: 2vw;
+padding-top: 2vw;
+font-size: 5vw;
+font-family: monospace;
+border-radius: 1vw;
+border: 0.5vw solid ghostwhite;
+color:lawngreen;
+
+}
+#f1,#we{
+    text-align: center;
+    margin-left: 50px;
+    padding:3px;
+    font-size:20px;
+    font-weight:bolder;
+    color:lawngreen;    
+    font-family: monospace;
+    
+    
+
+}
+#b11,#b22,#b33{
+    margin:5px;
+}
+input{
+    font-size: 20px;
+    padding:5px;
+    border-radius: 1em;
+    background-image:url("q1.jpg");
+    color: crimson;
+}
+    
+body{
+    background-image: url("q2.jpg");
+    background-size: 100vw;
+
+}
